@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Component-->
+        <scene sceneID="yBk-kS-vfm">
+            <objects>
+                <viewController storyboardIdentifier="ComponentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rK-fR-t4i" customClass="ComponentViewController" customModule="Storyboard_MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LNL-9l-UHB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnf-dh-TkE">
+                                <rect key="frame" x="148" y="433" width="118" height="30"/>
+                                <state key="normal" title="Component View"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pnf-dh-TkE" firstAttribute="centerY" secondItem="LNL-9l-UHB" secondAttribute="centerY" id="h7f-nC-kzh"/>
+                            <constraint firstItem="pnf-dh-TkE" firstAttribute="centerX" secondItem="LNL-9l-UHB" secondAttribute="centerX" id="xFY-U7-8A3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jTP-yx-O8l"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Component" image="doc" catalog="system" selectedImage="doc.fill" id="MSe-gO-SM5"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9MQ-bx-lwZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="doc.fill" catalog="system" width="115" height="128"/>
+    </resources>
+</document>

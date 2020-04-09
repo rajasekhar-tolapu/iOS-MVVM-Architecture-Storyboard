@@ -1,0 +1,6 @@
+framework module Pods_Storyboard_MVVMTests {
+  umbrella header "Pods-Storyboard_MVVMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
