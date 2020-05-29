@@ -18,13 +18,11 @@ class ForgetPasswordViewController: BaseViewController<ForgetPasswordViewModel> 
     
     @IBOutlet weak var changePasswordBtn: UIButton!
     
-    let disposeBag = DisposeBag()
-    
     override func bindView() {
         
         changePasswordBtn.rx.tap.bind {
             self.pop()
-        }.disposed(by: disposeBag)
+        }.disposed(by: viewModel.disposeBag)
             
     }
  
