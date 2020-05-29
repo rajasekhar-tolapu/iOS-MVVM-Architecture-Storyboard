@@ -46,6 +46,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJb-WP-xYo">
                                 <rect key="frame" x="271" y="343.66666666666669" width="123" height="30"/>
                                 <state key="normal" title="Forgot Password?"/>
+                                <connections>
+                                    <action selector="onForgetPassworf:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2re-xD-vjI"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="04m-nh-Qdd">
                                 <rect key="frame" x="20" y="382.66666666666669" width="51" height="31"/>
