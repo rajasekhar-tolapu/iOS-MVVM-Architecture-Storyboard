@@ -10,7 +10,7 @@ import Foundation
 import RxCocoa
 
 class RegistrationViewModel: BaseViewModel {
-    let name = BehaviorRelay<String>(value: "Dipendra")
+    let name = BehaviorRelay<String>(value: "")
     let email = BehaviorRelay<String>(value: "")
     let password = BehaviorRelay<String>(value: "")
 
