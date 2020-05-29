@@ -22,6 +22,7 @@ class ForgetPasswordViewController: BaseViewController<ForgetPasswordViewModel> 
         
         changePasswordBtn.rx.tap.bind {
             self.pop()
+
         }.disposed(by: viewModel.disposeBag)
             
     }
