@@ -24,6 +24,12 @@ class LoginViewController: BaseViewController<LoginViewModel> {
         }
     }
 
+    @IBAction func onForgetPassworf(_ sender: UIButton) {
+        push(viewController: ForgetPasswordViewController.instance().self, modalPresentationStyle: .automatic) { () -> DataBundle? in
+            return DataBundle()
+        }
+    }
+    
     override func bindView() {
         viewModel.showLoading()
         executeAfter(milliseconds: 2000) {
